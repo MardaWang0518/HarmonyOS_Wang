@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\86150\\.ohos\\config\\default_Scanner_NRGMFgMio_qhAyy4Thw0EyYsf6lzZ6klSMG7Oh99QGc=.cer",
+          "storePassword": "0000001B6171A32689E0AF2DFB9D8CC19D6A7DD6B1E06734807D8EB33C34DF0D6E0B72B220165F606C81EC",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B4EBBD46BBBB242037B93C7E9060ED03654683FA0D46BB5BEFFF2BEC69B2A3DF97D264DA6F68120",
+          "profile": "C:\\Users\\86150\\.ohos\\config\\default_Scanner_NRGMFgMio_qhAyy4Thw0EyYsf6lzZ6klSMG7Oh99QGc=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\86150\\.ohos\\config\\default_Scanner_NRGMFgMio_qhAyy4Thw0EyYsf6lzZ6klSMG7Oh99QGc=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
